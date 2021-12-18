@@ -1,2 +1,12 @@
 # chat-node-socket
- Um chat desenvolvido com Node.js e Socket.io
+ Chat desenvolvido com NodeJs e Socket.io
+
+### Instalação 
+`npm install`
+
+### Para rodar o projeto
+`npm start`
+
+### Porta
+
+`http://localhost:3000/`
