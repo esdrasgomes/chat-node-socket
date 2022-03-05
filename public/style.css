@@ -1,11 +1,14 @@
 body {
     margin: 0;
 }
-ul, li {
+
+ul,
+li {
     margin: 0;
     padding: 0;
     list-style: none;
 }
+
 .page {
     display: flex;
     height: 100vh;
@@ -14,9 +17,11 @@ ul, li {
     align-items: center;
     flex-direction: column;
 }
+
 #loginPage {
     display: flex;
 }
+
 #loginNameInput {
     border: 2px solid #000;
     background-color: #eee;
@@ -27,51 +32,61 @@ ul, li {
     width: 100%;
     max-width: 400px;
 }
+
 #chatPage {
     display: none;
 }
+
 .chatArea {
     flex: 1;
     width: 100%;
     display: flex;
 }
+
 .chatList {
     flex: 1;
-    background-color: #333;
+    background-color: #2c2c2c;
     color: #FFF;
     overflow-y: scroll;
     max-height: calc(100vh - 40px);
 }
+
 .chatList li {
     padding: 3px;
     font-size: 17px;
 }
+
 .chatList li.m-status {
     color: #EEE;
     font-style: italic;
 }
+
 .chatList li.m-txt span {
     font-weight: bold;
     color: rgb(143, 167, 241);
-    
 }
+
 .chatList li.m-txt span.me {
     color: rgb(236, 98, 98);
 }
+
 .userList {
     width: 200px;
     background-color: #DDD;
     overflow-y: scroll;
     max-height: calc(100vh - 40px);
 }
+
 .userList li {
     padding: 5px;
     font-size: 17px;
 }
+
 .chatInput {
     width: 100%;
     display: flex;
 }
+
 #chatTextInput {
     flex: 1;
     height: 40px;
